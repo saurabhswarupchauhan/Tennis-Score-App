@@ -1,8 +1,6 @@
 package com.tennis.game.webapp;
 
-/**
- * Created by Boss on 8/23/2016.
- */
+
 public class GamePojo {
 
     private  Player player1;
