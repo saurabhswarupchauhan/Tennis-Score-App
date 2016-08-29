@@ -55,7 +55,7 @@ public class TennisGameTest {
     }
 
     @Test
-    public void dueceCheck1(){
+    public void dueceCheckAfterAdvantage(){
         modelAndView=appController.wonPoint("PLAYER1","FOURTY","Advantage player2");
         Assert.assertEquals("DEUCE",modelAndView.getModel().get("player1Score"));
         Assert.assertEquals("DEUCE",modelAndView.getModel().get("player2Score"));
