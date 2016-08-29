@@ -21,3 +21,5 @@ scores from zero to three points are described as “Love”, “Fifteen”, “
 4. If at least three points have been scored by each side and a player has one more point than his opponent, 
 the score of the game is “Advantage player1” or “Advantage player2”.
  
+Note: The project has been built with Maven.
+Junit has been written to test all the possible secanarios of the game.
