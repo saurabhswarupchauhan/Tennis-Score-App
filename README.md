@@ -9,6 +9,8 @@ When one of the players has won, the scoreboard should display which one.
 I have assumed that the umpire pressing the button “player 1 scores” will result in a method “WonPoint(“player1”)” being called 
 of my class, and similarly WonPoint(“player2”) for the other button. 
 This property is returning a string with the current score.
+
+# Scoring secanario
  
 1. A game is won by the first player to have won at least four points in total and at least two points more than the opponent. 
 The score is then “Win for player1” or “Win for player2”
